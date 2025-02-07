@@ -1,0 +1,6 @@
+(library
+ (name dotenv_test)
+ (libraries dotenv containers extunix)
+ (preprocess
+  (pps ppx_inline_test ppx_assert ppx_expect))
+ (inline_tests))

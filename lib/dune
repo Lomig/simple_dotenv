@@ -1,0 +1,5 @@
+(library
+ (name dotenv)
+ (public_name simple_dotenv)
+ (modules dotenv)
+ (libraries unix containers re))
